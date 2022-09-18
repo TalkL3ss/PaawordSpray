@@ -14,7 +14,7 @@ $lockoutBadPwdCount = ((net accounts /domain)[7] -split ":" -replace " ","")[1] 
 
 #---Changes Bellow this line is allowed----
 
-$GroupToCheck = "studentha" #Defined All if needed to get all the domain users or any other group
+$GroupToCheck = "students" #Defined All if needed to get all the domain users or any other group
 
 if ($GroupToCheck.ToLower() -eq "all") {
 
